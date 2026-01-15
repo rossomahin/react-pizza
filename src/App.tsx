@@ -5,10 +5,11 @@ import Header from "./components/Header";
 import Categories from "./components/Categories";
 import Sort from "./components/Sort";
 import PizzasList from "./components/PizzasList";
+import { useSortStore } from "./store/sortStore";
 
 function App() {
   const [category, setCategory] = useState("all");
-  const [sortType, setSortType] = useState("popularity");
+  const sortType = useSortStore((s) => s.sortType);
 
   return (
     <>

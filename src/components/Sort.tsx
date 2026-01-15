@@ -33,7 +33,7 @@ function Sort() {
         <img
           className={`${
             open ? "rotate-180" : "rotate-0"
-          } transform transition-transform duration-200 ease-in-out`}
+          } transition-transform duration-200 ease-in-out`}
           src={arrowForSorting}
           alt="arrow"
         />
