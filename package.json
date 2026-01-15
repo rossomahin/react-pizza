@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://rossomahin.github.io/react-pizza/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
@@ -15,6 +17,7 @@
     "@tanstack/react-query": "^5.90.17",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gh-pages": "^6.3.0",
     "immer": "^11.1.0",
     "lucide-react": "^0.562.0",
     "react": "^19.2.0",
