@@ -10,7 +10,7 @@ const queryClient = new QueryClient();
 
 createRoot(document.getElementById("root")!).render(
   <QueryClientProvider client={queryClient}>
-    <BrowserRouter>
+    <BrowserRouter basename="/react-pizza">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/cart" element={<Cart />} />
